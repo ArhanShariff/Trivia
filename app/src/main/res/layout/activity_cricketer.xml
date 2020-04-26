@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Cricketer">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cricketer"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:id="@+id/radioGroup">
+
+        <RadioButton
+            android:id="@+id/Sachin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sachin"
+            android:layout_marginTop="10dp"
+            android:checked="false"
+            android:textSize="17sp" />
+
+        <RadioButton
+            android:id="@+id/virat"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/virat"
+            android:layout_marginTop="10dp"
+            android:checked="false"
+            android:textSize="17sp" />
+
+        <RadioButton
+            android:id="@+id/gilly"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gilly"
+            android:layout_marginTop="10dp"
+            android:checked="false"
+            android:textSize="17sp" />
+
+        <RadioButton
+            android:id="@+id/kallis"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/kallis"
+            android:layout_marginTop="10dp"
+            android:checked="false"
+            android:textSize="17sp" />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nextBtnCricketer"
+        android:text="@string/next"
+        android:layout_gravity="center"
+        android:textColor="@color/cardview_light_background"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_marginTop="50dp"
+        />
+
+</LinearLayout>
